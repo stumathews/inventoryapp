@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stuartmathews.inventoryapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+	<uses-feature android:name="android.hardware.camera"/>
+    <application
+        android:name="com.stuartmathews.inventoryapp.InventoryApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.stuartmathews.inventoryapp.Activities.ShowAllItemsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>                
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.stuartmathews.inventoryapp.Activities.ShowItemActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_show_item"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.stuartmathews.inventoryapp.Activities.ShowPlaceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_show_place"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+       
+        <activity
+            android:name="com.stuartmathews.inventoryapp.Activities.AddEditPlaceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_add_edit_place"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.stuartmathews.inventoryapp.Activities.ShowAllPlacesActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_show_all_places"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.stuartmathews.inventoryapp.Activities.AddEditCategoryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_add_edit_category"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.stuartmathews.inventoryapp.Activities.ShowAllCategoriesActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_show_all_categories"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.stuartmathews.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.stuartmathews.ShowItemActivity"
+            android:label="@string/title_activity_show_item" >
+        </activity>
+        <activity
+            android:name="com.stuartmathews.ShowPlaceActivity"
+            android:label="@string/title_activity_show_place" >
+        </activity>
+        <activity
+            android:name="com.stuartmathews.inventoryapp.Activities.AddEditItemActivity"
+            android:label="@string/title_activity_add_edit_item" >
+            <intent-filter>                
+                <action android:name="com.stuartmathews.inventoryapp.Activities.AddEditItemActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.stuartmathews.AddEditPlaceActivity"
+            android:label="@string/title_activity_add_edit_place" >
+        </activity>
+        <activity
+            android:name="com.stuartmathews.ShoewAllPlacesActivity"
+            android:label="@string/title_activity_shoew_all_places" >
+        </activity>
+        <activity
+            android:name="com.stuartmathews.AddEditCategoryActivity"
+            android:label="@string/title_activity_add_edit_category" >
+        </activity>
+        <activity
+            android:name="com.stuartmathews.ShowAllCategoriesActivity"
+            android:label="@string/title_activity_show_all_categories" >
+        </activity>
+    </application>
+
+</manifest>

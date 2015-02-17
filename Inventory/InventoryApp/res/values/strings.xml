@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InventoryApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_show_item">ShowItemActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_show_place">ShowPlaceActivity</string>
+    <string name="title_activity_add_edit_item">AddEditItemActivity</string>
+    <string name="title_activity_add_edit_place">AddEditPlaceActivity</string>
+    <string name="title_activity_show_all_places">ShowAllPlacesActivity</string>
+    <string name="title_activity_add_edit_category">AddEditCategoryActivity</string>
+    <string name="title_activity_show_all_categories">ShowAllCategoriesActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_shoew_all_places">ShoewAllPlacesActivity</string>
+    <string name="picture_of_item">Picture of Item</string>
+
+</resources>
